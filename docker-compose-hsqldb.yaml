@@ -7,7 +7,7 @@ services:
     - "9001:9001"
     command: hsqldb
 
-# jdbc:hsqldb:hsql://localhost/test
+# jdbc:hsqldb:hsql://localhost:9001/test
 #  Username: sa, Password :
 
 
