@@ -4,9 +4,10 @@
     "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
   <session-factory>
-    <property name="connection.url">jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/ALL_JPA/my_jpa_test_project/db1/DB</property>
+    <property name="connection.url">jdbc:hsqldb:hsql://localhost:9001/test</property>
     <property name="connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
     <property name="hibernate.dialect">org.hibernate.dialect.HSQLDialect</property>
+    <property name="hibernate.connection.username">sa</property>
 <!--    <property name="hibernate.implicit_naming_strategy">newutil_naming_jakarta.MyImplicitNamingStrategy</property>-->
     <!--        <property name="hibernate.physical_naming_strategy">newutil_naming_jakarta.MyLegacyPhysicalNamingStrategy</property>-->
     <!--<property name="hibernate.archive.autodetection">class</property>-->
@@ -15,6 +16,6 @@
     <!--<property name="hbm2ddl.auto">update</property>-->
 
 
-    <mapping class="entities.entities.Entitybus"/>
+    <mapping class="entities.Entitybus"/>
   </session-factory>
 </hibernate-configuration>

@@ -10,10 +10,10 @@
         <class>entities.Naming</class>
         <properties>
             <property name="hibernate.connection.url"
-                      value="jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/ALL_JPA/my_jpa_test_project/db1/DB"/>
+                      value="jdbc:hsqldb:hsql://localhost:9001/test"/>
             <property name="hibernate.connection.driver_class" value="org.hsqldb.jdbc.JDBCDriver"/>
             <property name="hibernate.connection.username" value="sa"/>
-            <property name="hibernate.connection.password" value="sa"/>
+            <property name="hibernate.connection.password" value=""/>
             <property name="hibernate.archive.autodetection" value="class"/>
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>

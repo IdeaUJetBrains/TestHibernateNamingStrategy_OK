@@ -1,6 +1,6 @@
 (1) Set up a Database
 -run the docker-compose.yaml file (to have a docker hsqldb)
--go to the Database view-> + ->datasource from URL and enter jdbc:hsqldb:hsql://localhost/test
+-go to the Database view-> + ->datasource from URL and enter jdbc:hsqldb:hsql://localhost:9001/test
 ( user=sa, password is empty )
 
 
